@@ -1,0 +1,58 @@
+/* Option1.css */
+
+/* Estilos para el contenedor del componente */
+
+.pagina1 {
+    text-align: center; /* Centrar el contenido */
+    padding: 20px;
+  }
+  
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  .animacionletra {
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 3s steps(20,end) infinite;
+    position: absolute;
+    top: 40%;
+    left: 50%; /* Centra horizontalmente */
+    transform: translate(-50%, -50%);
+    color: #111010;
+    box-shadow: 7px 8px 10px rgba(216, 29, 29, 0.5);
+  }
+
+
+ 
+
+
+  /* Estilos para la imagen */
+  img {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: %;
+    object-fit: cover; /* Ajusta la imagen para cubrir toda su área */
+   /* opacity: 0.8; /* Ajusta la opacidad al valor deseado (0.7 para un 70% de opacidad) */
+    z-index: -1;
+    
+  
+  }
+  .navbar-brand {
+    display: flex;
+    align-items: center; /* Centra verticalmente el contenido */
+  }
+  
+  .navbar-brand i {
+    margin-right: 5px; /* Espacio entre el icono y el texto */
+  }
+  
+  
